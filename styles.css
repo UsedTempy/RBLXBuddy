@@ -1,0 +1,25 @@
+.index-indicator {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 60px; /* Increased width */
+    height: 25px; /* Increased height */
+    border-radius: 15px; /* Fully rounded edges */
+    background-color: rgba(0, 0, 0, 0.7); /* Black with slight transparency */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px; /* Larger text */
+    font-weight: bold; /* Bold text */
+    font-family: 'Arial Black', sans-serif; /* Thicker font */
+    z-index: 1000;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s; /* Smooth transition for showing/hiding */
+  }
+  
+.list-item.game-card.game-tile:hover .index-indicator {
+    opacity: 1; /* Show the indicator on hover */
+  }
+  

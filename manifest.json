@@ -3,9 +3,9 @@
   "name": "Roblox Analytics",
   "description": "Google Extention Created By: UsedTemplate",
   "version": "1.0",
-  
+
   "background": {
-      "service_worker": "./extension/content.js"
+    "service_worker": "./background.js"
   },
 
   "icons": {
