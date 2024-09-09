@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Roblox Analytics",
+  "description": "Google Extention Created By: UsedTemplate",
+  "version": "1.0",
+  
+  "background": {
+      "service_worker": "./extension/content.js"
+  },
+
+  "icons": {
+      "16": "/images/img-2_16x.png",
+      "48": "/images/img-2_48x.png",
+      "128": "/images/img-2_128x.png"
+  },
+  "permissions": [
+      "activeTab",
+      "tabs",
+      "scripting"
+  ],
+  "host_permissions": [
+      "https://www.roblox.com/charts#/*"
+  ],
+  "content_scripts": [
+      {
+        "matches": ["https://www.roblox.com/charts#/*"],
+        "css": ["styles.css"]
+      }
+    ]
+}
