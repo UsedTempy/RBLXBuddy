@@ -46,23 +46,6 @@
 
 ---
 
-## 🌍 Contributing
-
-Contributions are welcome! Follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/YourFeatureName
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add your feature description here"
-   ```
-4. Push and submit a pull request.
-
----
-
 ## 💬 Support
 
 If you encounter issues or have suggestions, feel free to create an issue [here](https://github.com/UsedTempy/RBLXBuddy/issues).
